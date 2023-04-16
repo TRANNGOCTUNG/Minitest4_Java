@@ -1,9 +1,10 @@
 package model;
 
 import java.io.*;
+import java.util.List;
 
 public class WriteFile<T> {
-   public void writeData(String fileName,T data){
+   public void writeData(List<T> data,String fileName){
        try {
            FileOutputStream fos = new FileOutputStream(fileName);
            ObjectOutputStream oos = new ObjectOutputStream(fos);

@@ -7,7 +7,7 @@ public class Concat {
     private String phoneNumber;
     private Type type;
 
-    public Concat() {
+    public Concat(String name, String phoneNumber, int typeId) {
     }
 
     public Concat(String name, String phoneNumber, Type type) {
